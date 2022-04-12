@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class TasksTest {
 	
 	public WebDriver acessarAplicacao() throws MalformedURLException {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Frinhani\\dev\\java\\seleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Frinhani\\dev\\java\\seleniumDrivers\\chromedriver.exe");
 		//WebDriver drive = new ChromeDriver();
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 		WebDriver drive = new RemoteWebDriver(new URL("http://10.0.0.108:4444/wd/hub"), cap);
@@ -37,7 +37,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descrição
+			//escrever descriï¿½ï¿½o
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//escrever data
@@ -88,7 +88,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descrição
+			//escrever descriï¿½ï¿½o
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//clicar em salvar
@@ -112,7 +112,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descrição
+			//escrever descriï¿½ï¿½o
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//escrever data
