@@ -37,7 +37,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descri��o
+			//escrever descricao
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//escrever data
@@ -88,7 +88,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descri��o
+			//escrever descricao
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//clicar em salvar
@@ -112,7 +112,7 @@ public class TasksTest {
 			//clicar em Add todo
 			drive.findElement(By.id("addTodo")).click();
 		
-			//escrever descri��o
+			//escrever descricao
 			drive.findElement(By.id("task")).sendKeys("Teste via Selenium");
 			
 			//escrever data
